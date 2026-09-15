@@ -1,0 +1,21 @@
+sortName=Radix Sort
+fileName=data1.txt
+comparison=22623
+swaps=3996
+loops=22667
+timeNano=3435375
+
+sortName=Radix Sort
+fileName=data2.txt
+comparison=22641
+swaps=3996
+loops=22685
+timeNano=2777000
+
+sortName=Radix Sort
+fileName=data3.txt
+comparison=22617
+swaps=3996
+loops=22661
+timeNano=2766167
+
