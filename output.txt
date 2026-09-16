@@ -1,21 +1,5 @@
-sortName=Radix Sort
-fileName=data1.txt
-comparison=22623
-swaps=3996
-loops=22667
-timeNano=3435375
+Sort Name		File		swaps	comparison		loops		(timeNano)
 
-sortName=Radix Sort
-fileName=data2.txt
-comparison=22641
-swaps=3996
-loops=22685
-timeNano=2777000
-
-sortName=Radix Sort
-fileName=data3.txt
-comparison=22617
-swaps=3996
-loops=22661
-timeNano=2766167
-
+Radix Sort		data1.txt	3996	22623		`	22667		3499042
+Radix Sort		data2.txt	3996	22641		`	22685		2851583
+Radix Sort		data3.txt	3996	22617		`	22661		2802959

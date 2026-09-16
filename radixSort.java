@@ -7,13 +7,13 @@ import java.util.Scanner;
 public class radixSort{
 
     //PRE:
-    // sortStats is a non-null SortStats instance; 
+    // sortStats is a non-null SortStats instance
     // fileName:names a readable file
     // containing comma-separated non-negative integers with at most 4 digits each
 
     //POST:
     // returns the integers from the file as Strings in ascending order; sortStats is
-    // updated with sortName, fileName, comparisons, swaps, loops, and timeNano for the sort
+    // updated with sortName,fileName,comparisons,swaps,loops,and timeNano for the sort
 
     public static ArrayList<String> sort(SortStats sortStats,String fileName)
             throws FileNotFoundException{
@@ -78,10 +78,14 @@ References
 
 [2] Anthropic. "Claude Code AI Assistant Documentation."
     https://claude.ai/code
-    Used for file I/O implementation (reading from file with Scanner and
-    useDelimiter, writing to output file with PrintWriter).
+    Used for debug.
     Accessed September 2026.
 
-    */
+[3] OpenAI. "ChatGPT."
+    https://chatgpt.com
+    Used to search for file reading techniques in Java, specifically for
+    Scanner usage and delimiter patterns for comma-separated input.
+    Accessed September 2026.
+*/
 
 

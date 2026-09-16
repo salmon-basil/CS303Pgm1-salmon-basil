@@ -1,0 +1,30 @@
+My project has three main files: SortStats.java radixSort.java and main.java
+
+At first I'll compile the files and run it.
+
+Here's the output. For each file it prints the sort name, file name,
+number of comparisons, swaps, loops, and the time in nanoseconds
+
+In my program, I used an in-place stable sorting approach where
+I process each digit from the most significant to the least significant.
+For each digit position, I iterate through digits 0-9 and move matching
+numbers to the front of the unsorted portion using ArrayList's remove()
+and add() methods, maintaining stability without requiring extra arrays
+or buckets.
+
+And diffrence between my program and LLM's program is that
+
+The LLM used Counting Sort as a subroutine.
+It makes it cleaner and more efficient for integer arrays. 
+My approach processes numbers as Strings in-place using ArrayList, with a fixed4-digit assumption and direct element repositioning. 
+The LLM's version is more elegant and space-efficient, while mine is more tailored to the specific file format and statistics tracking requirements of this assignment.
+
+That's my Program 1 submission. Thanks for watching."
+
+References
+
+[1] OpenAI. "ChatGPT."
+    https://chatgpt.com
+    To translate japanese script to English script.
+    
+

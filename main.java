@@ -14,17 +14,16 @@ public class main {
         String[] fileNames = {"data1.txt", "data2.txt", "data3.txt"};
 
         PrintWriter writer = new PrintWriter("output.txt");
-        for(String fileName : fileNames){
-            SortStats SS = new SortStats();
-            ArrayList<String> a = radixSort.sort(SS,fileName);
 
-            writer.println("sortName=" + SS.sortName);
-            writer.println("fileName=" + SS.fileName);
-            writer.println("comparison=" + SS.comparison);
-            writer.println("swaps=" + SS.swaps);
-            writer.println("loops=" + SS.loops);
-            writer.println("timeNano=" + SS.timeNano);
-            writer.println();
+        // Header
+        writer.println("Sort Name\t\tFile\t\tswaps\tcomparison\t\tloops\t\t(timeNano)");
+        writer.println("");
+
+        for(String fileName : fileNames){
+            SortStats sortStats = new SortStats();
+            radixSort.sort(sortStats,fileName);
+
+            writer.println(sortStats.sortName + "\t\t" + sortStats.fileName + "\t" + sortStats.swaps + "\t" + sortStats.comparison + "\t\t`\t" + sortStats.loops + "\t\t" + sortStats.timeNano);
         }
         writer.close();
 
